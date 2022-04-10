@@ -1,4 +1,4 @@
-# Задание №3
+## Задание №3
 def transform_string(number: int) -> str:
     i = n % 10
     if 11 <= n <= 19:
