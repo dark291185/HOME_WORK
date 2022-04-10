@@ -1,4 +1,4 @@
-# Задание №1
+## Задание №1
 def convert_time(duration: int) -> str:
     day = duration // (24 * 3600)
     sec = duration % (24 * 3600)
@@ -18,7 +18,7 @@ def convert_time(duration: int) -> str:
 
 duration = int(input('Введите промежуток времени в секундах: '))
 if duration < 0:
-    print('Число не должно быть отрицательным')
+    print('Число не должно быть отрицательным!')
 else:
     result = convert_time(duration)
     print(result)
