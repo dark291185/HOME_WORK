@@ -1,4 +1,4 @@
-## Задание №1
+# Задание №1
 def convert_time(duration: int) -> str:
     day = duration // (24 * 3600)
     sec = duration % (24 * 3600)

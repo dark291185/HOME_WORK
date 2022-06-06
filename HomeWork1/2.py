@@ -1,4 +1,4 @@
-## Задание №2
+# Задание №2
 def sum_list_1(dataset: list) -> int:
     list_1 = []
     for i in range(1, 1001, 2):
