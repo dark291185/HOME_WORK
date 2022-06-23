@@ -7,7 +7,7 @@ def transfer_list_in_str(list_in: list) -> str:
     for i in my_list:
         r = int(i)
         k = (i - int(i)) * 100
-        numb = f'{r} руб {k:02.0f} коп, '
+        numb = f'{r} руб {k:02.1f} коп, '
         price.extend(numb)
     str_out = ''.join(price)
     return str_out

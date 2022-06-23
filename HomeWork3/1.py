@@ -1,6 +1,8 @@
 ## Задание №1
 def num_translate(value: str) -> str:
-     """переводит числительное с английского на русский """
+    """переводит числительное с английского на русский"""
+
+
     my_dict = {
 'one': 'один',
 'two': 'два',
@@ -12,7 +14,11 @@ def num_translate(value: str) -> str:
 'eight': 'восемь',
 'nine': 'девять',
 'ten': 'десять'}
+
+
     str_out = my_dict.get(value)
     return str_out
+
+
 print(num_translate('one'))
 print(num_translate('eight'))

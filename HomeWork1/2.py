@@ -5,7 +5,7 @@ def sum_list_1(dataset: list) -> int:
         list_1.append(i ** 3)
     numbers_sum = 0
     for i in list_1:
-        n = 0
+        n = 0 # сумма цифр в числе
         j = i
         while i > 0:
             n += i % 10
