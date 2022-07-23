@@ -1,7 +1,6 @@
 class DateInitError(Exception):
     pass
 
-
 class Date:
 
     def __init__(self, date):
